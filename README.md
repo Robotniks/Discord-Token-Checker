@@ -39,7 +39,7 @@ python3.9 main.py
 
 If you have any issues running it be sure to tell me and I'll do my best to help you
 
-# Programing Checking Preview
+# Program - Checking Preview
 
 <img src="images/screenshot.png">
 
