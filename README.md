@@ -7,9 +7,9 @@ If you'd like me to add another category for the checks then be sure to tell me.
 
 [1] Install  python 3.9 <a href="https://www.python.org/downloads/release/python-390/">here</a> (skip if you already have it installed) 
 
-[2] Download this repo or install and use git to download it
+[2] Download this repo or install and use <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">git</a> to download it
 
-**GIT Installation**
+**Installation with GIT**
 ```
 git clone https://github.com/Robotniks/Discord-Token-Checker
 cd Discord-Token-Checker/
