@@ -5,7 +5,7 @@ If you'd like me to add another category for the checks then be sure to tell me.
 
 # Installation
 
-[1] Install  python <a href="https://www.python.org/downloads/">here</a> (skip if you already have it installed) 
+[1] Install  python 3.9 <a href="https://www.python.org/downloads/release/python-390/">here</a> (skip if you already have it installed) 
 
 [2] Download this repo or install and use git to download it
 
