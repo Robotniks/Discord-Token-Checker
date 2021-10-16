@@ -46,12 +46,15 @@ def main():
     valid = 0
     invalid = 0
     locked = 0
+    total = 0
 
     with open('tokens.txt','r') as tokens:
         for token in tokens.read().split('\n'):
             checkit = Check(token).start()
+            total +=1
             if checkit == 'valid':
                 valid +=1
+                
                 
                 with open('output/valid.txt','a') as f:
                     f.write(f'{token}\n')
@@ -74,7 +77,7 @@ def main():
     
 
     Log.print('All tokens have been checked,you may find your result in the "output" folder')
-    Log.print(f'Valid Tokens: {valid} Invalid Tokens: {invalid} Locked Tokens: {locked}')
+    Log.print(f'Valid Tokens: {valid} Invalid Tokens: {invalid} Locked Tokens: {locked} Total: {total}')
 
 
 if __name__ == "__main__":
