@@ -78,7 +78,7 @@ def main():
 
     Log.print('All tokens have been checked,you may find your result in the "output" folder')
     Log.print(f'Valid Tokens: {valid} Invalid Tokens: {invalid} Locked Tokens: {locked} Total: {total}')
-
+    input()
 
 if __name__ == "__main__":
     main()
