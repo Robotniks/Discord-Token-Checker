@@ -5,7 +5,6 @@ from colorama.ansi import Fore,Style
 
 
 try:
-    os.system('title Token Checker')
     os.system('color')
 except: 
     pass    
