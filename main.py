@@ -2,9 +2,11 @@ import colorama
 import requests,os 
 from threading import Thread 
 from colorama.ansi import Fore,Style 
-
+import ctypes
 
 try:
+    ctypes.windll.kernel32.SetConsoleTitleW(Title)
+
     os.system('color')
 except: 
     pass    
