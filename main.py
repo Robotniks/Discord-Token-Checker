@@ -26,11 +26,14 @@ class Log:
 class Check():
     def __init__(self,token):
         self.token = token 
+        self.status = 0
         self.headers = {'Authorization':self.token}
 
     def start(self):
         
         reqobj = requests.get('https://discordapp.com/api/v9/guild-events',headers=self.headers)
+        self.status = reqobj.status_code
+
         if reqobj.status_code == 200:
             return 'valid'
 
