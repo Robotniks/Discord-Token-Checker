@@ -37,7 +37,7 @@ py main.py
 python3.9 main.py
 ```
 
-If you have any issues running it be sure to tell me and I'll do my best to help you
+If you have any suggestions or problems be sure to open an issue 
 
 # Program - Checking Preview
 
