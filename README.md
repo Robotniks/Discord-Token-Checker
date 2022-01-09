@@ -1,3 +1,5 @@
+hi will republish this w/ good code later bye
+
 # Discord Token Checker
 Simple yet efficient tool used to check and sort tokens in terms of there validation.When the program is done,go to the "output" folder to see the results of 
 what tokens are valid,invalid and locked.The code is pretty simple but it works.
